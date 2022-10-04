@@ -2,15 +2,30 @@ GET http://localhost:8080/contacts
 ###
 GET http://localhost:8080/contacts/632f3f65b71a78958157f948
 ###
-GET http://localhost:8080/contacts/632f3f65b71a78958157f949
-###
-GET http://localhost:8080/contacts/632f3f65b71a78958157f94a
-###
 GET https://colton341-w02.onrender.com/contacts
 ###
-GET https://colton341-w02.onrender.com/contacts/632f3f65b71a78958157f948
-###
-GET https://colton341-w02.onrender.com/contacts/632f3f65b71a78958157f949
-###
 GET https://colton341-w02.onrender.com/contacts/632f3f65b71a78958157f94a
-###
+### Create Contact
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json 
+
+{
+"firstName":"John", 
+"lastName":"Cena",
+"email":"johncena@aol.com",
+"favColor":"red", 
+"birthday":"06/19/1967"
+}
+### Update Contact
+PUT http://localhost:8080/contacts/633b91297ec528b5b97d5a69 HTTP/1.1
+content-type: application/json 
+
+{
+"firstName":"John", 
+"lastName":"Cena",
+"email":"jogncena@yahoo.com.com",
+"favColor":"purple", 
+"birthday":"07/19/1969"
+}
+### Delete Contact
+DELETE http://localhost:8080/contacts/633b91297ec528b5b97d5a69 HTTP/1.1

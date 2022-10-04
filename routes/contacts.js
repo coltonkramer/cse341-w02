@@ -8,4 +8,10 @@ router.get('/', contactsControl.getData);
 
 router.get('/:id', contactsControl.getDataById);
 
+router.post('/', contactsControl.createContact);
+
+router.put('/:id', contactsControl.updateContact);
+
+router.delete('/:id', contactsControl.deleteContact);
+
 module.exports = router;
