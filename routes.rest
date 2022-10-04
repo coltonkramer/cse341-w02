@@ -16,16 +16,44 @@ content-type: application/json
 "favColor":"red", 
 "birthday":"06/19/1967"
 }
+
 ### Update Contact
-PUT http://localhost:8080/contacts/633b91297ec528b5b97d5a69 HTTP/1.1
+PUT http://localhost:8080/contacts/633b9bc8bd7170303f85e566 HTTP/1.1
 content-type: application/json 
 
 {
 "firstName":"John", 
 "lastName":"Cena",
-"email":"jogncena@yahoo.com.com",
+"email":"johncena@yahoo.com",
 "favColor":"purple", 
 "birthday":"07/19/1969"
 }
+
 ### Delete Contact
-DELETE http://localhost:8080/contacts/633b91297ec528b5b97d5a69 HTTP/1.1
+DELETE http://localhost:8080/contacts/633b9bc8bd7170303f85e566 HTTP/1.1
+###
+POST http://colton341-w02.onrender.com/contacts HTTP/1.1
+content-type: application/json 
+
+{
+"firstName":"John", 
+"lastName":"Cena",
+"email":"johncena@aol.com",
+"favColor":"red", 
+"birthday":"06/19/1967"
+}
+
+### Update Contact
+PUT http://colton341-w02.onrender.com/contacts/633b9bc8bd7170303f85e566 HTTP/1.1
+content-type: application/json 
+
+{
+"firstName":"John", 
+"lastName":"Cena",
+"email":"johncena@yahoo.com",
+"favColor":"purple", 
+"birthday":"07/19/1969"
+}
+
+### Delete Contact
+DELETE http://colton341-w02.onrender.com/contacts/633b9bc8bd7170303f85e566 HTTP/1.1
