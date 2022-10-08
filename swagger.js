@@ -5,7 +5,7 @@ const doc = {
         title: 'Contacts Documentation',
         description: 'Give a clear description of how these routes work and how they can be used'
     },
-    host: 'https://colton341-w02.onrender.com',
+    host: 'colton341-w02.onrender.com',
     schemes: ['https'],
 }
 const generatedFile = './swagger.json';
