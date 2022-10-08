@@ -6,7 +6,7 @@ async function apiFetch(url) {
 }
 
 const getData = async () => {
-  const data = await apiFetch('http://https://colton341-w02.onrender.com//contacts');
+  const data = await apiFetch('https://colton341-w02.onrender.com/contacts');
   displayAllData(data);
 };
 
