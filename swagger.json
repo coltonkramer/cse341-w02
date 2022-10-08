@@ -5,10 +5,10 @@
     "description": "Give a clear description of how these routes work and how they can be used",
     "version": "1.0.0"
   },
-  "host": "https://colton341-w02.onrender.com/",
+  "host": "https://colton341-w02.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
